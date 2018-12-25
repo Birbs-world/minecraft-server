@@ -1,0 +1,17 @@
+{
+  "id": "ravene_68,38,39",
+  "name": "ravene",
+  "icon": "waypoint-normal.png",
+  "x": 68,
+  "y": 38,
+  "z": 39,
+  "r": 80,
+  "g": 65,
+  "b": 182,
+  "enable": true,
+  "type": "Normal",
+  "origin": "JourneyMap",
+  "dimensions": [
+    0
+  ]
+}
