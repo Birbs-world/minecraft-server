@@ -1,116 +1,659 @@
-[15:29:42] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
-[15:29:42] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
-[15:29:42] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.18.0-13-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[15:29:42] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
-[15:29:42] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
-[15:29:42] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
-[15:29:42] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
-[15:29:42] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
-[15:29:42] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
-[15:29:42] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
-[15:29:42] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
-[15:29:42] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
-[15:29:42] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
-[15:29:42] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/jelleymuncher/minecraft/minecraft-server/.
-[15:29:42] [main/DEBUG] [FML/]: Discovering coremods
-[15:29:42] [main/DEBUG] [FML/]: Examining for coremod candidacy neiaddons-1.12.11.36-mc1.7.10.jar
-[15:29:42] [main/DEBUG] [FML/]: Not found coremod data in neiaddons-1.12.11.36-mc1.7.10.jar
-[15:29:42] [main/DEBUG] [FML/]: Examining for coremod candidacy NotEnoughItems-1.7.10-1.0.5.118-universal.jar
-[15:29:42] [main/TRACE] [FML/]: Adding NotEnoughItems-1.7.10-1.0.5.118-universal.jar to the list of known coremods, it will not be examined again
-[15:29:42] [main/DEBUG] [FML/]: Instantiating coremod class NEICorePlugin
-[15:29:42] [main/WARN] [FML/]: The coremod codechicken.nei.asm.NEICorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: java.lang.NoClassDefFoundError: codechicken/lib/asm/ASMInit
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at codechicken.nei.asm.NEICorePlugin.<init>(NEICorePlugin.java:18)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.Class.newInstance(Class.java:442)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:501)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.CoreModManager.discoverCoreMods(CoreModManager.java:389)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.CoreModManager.handleLaunch(CoreModManager.java:221)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:90)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.FMLLaunchHandler.setupServer(FMLLaunchHandler.java:74)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.FMLLaunchHandler.configureForServerLaunch(FMLLaunchHandler.java:39)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.launcher.FMLServerTweaker.injectIntoClassLoader(FMLServerTweaker.java:23)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: Caused by: java.lang.ClassNotFoundException: codechicken.lib.asm.ASMInit
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	... 21 more
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: Caused by: java.lang.NullPointerException
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	... 23 more
-[15:29:42] [main/ERROR] [FML/]: An error occurred trying to configure the minecraft home at /home/jelleymuncher/minecraft/minecraft-server/. for Forge Mod Loader
-java.lang.NoClassDefFoundError: codechicken/lib/asm/ASMInit
-	at codechicken.nei.asm.NEICorePlugin.<init>(NEICorePlugin.java:18) ~[NotEnoughItems-1.7.10-1.0.5.118-universal.jar:?]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_191]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_191]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_191]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_191]
-	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_191]
-	at cpw.mods.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:501) ~[forge-1.7.10-10.13.4.1558-1.7.10-universal.jar:?]
-	at cpw.mods.fml.relauncher.CoreModManager.discoverCoreMods(CoreModManager.java:389) ~[forge-1.7.10-10.13.4.1558-1.7.10-universal.jar:?]
-	at cpw.mods.fml.relauncher.CoreModManager.handleLaunch(CoreModManager.java:221) ~[forge-1.7.10-10.13.4.1558-1.7.10-universal.jar:?]
-	at cpw.mods.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:90) [forge-1.7.10-10.13.4.1558-1.7.10-universal.jar:?]
-	at cpw.mods.fml.relauncher.FMLLaunchHandler.setupServer(FMLLaunchHandler.java:74) [forge-1.7.10-10.13.4.1558-1.7.10-universal.jar:?]
-	at cpw.mods.fml.relauncher.FMLLaunchHandler.configureForServerLaunch(FMLLaunchHandler.java:39) [forge-1.7.10-10.13.4.1558-1.7.10-universal.jar:?]
-	at cpw.mods.fml.common.launcher.FMLServerTweaker.injectIntoClassLoader(FMLServerTweaker.java:23) [forge-1.7.10-10.13.4.1558-1.7.10-universal.jar:?]
-	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115) [launchwrapper-1.12.jar:?]
-	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_191]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_191]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_191]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_191]
-	at cpw.mods.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43) [forge-1.7.10-10.13.4.1558-1.7.10-universal.jar:?]
-	at cpw.mods.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12) [forge-1.7.10-10.13.4.1558-1.7.10-universal.jar:?]
-Caused by: java.lang.ClassNotFoundException: codechicken.lib.asm.ASMInit
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_191]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_191]
-	... 21 more
-Caused by: java.lang.NullPointerException
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_191]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_191]
-	... 21 more
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: java.lang.reflect.InvocationTargetException
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Method.invoke(Method.java:498)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:43)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:12)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: Caused by: java.lang.NoClassDefFoundError: codechicken/lib/asm/ASMInit
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at codechicken.nei.asm.NEICorePlugin.<init>(NEICorePlugin.java:18)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.Class.newInstance(Class.java:442)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:501)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.CoreModManager.discoverCoreMods(CoreModManager.java:389)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.CoreModManager.handleLaunch(CoreModManager.java:221)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.FMLLaunchHandler.setupHome(FMLLaunchHandler.java:90)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.FMLLaunchHandler.setupServer(FMLLaunchHandler.java:74)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.relauncher.FMLLaunchHandler.configureForServerLaunch(FMLLaunchHandler.java:39)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at cpw.mods.fml.common.launcher.FMLServerTweaker.injectIntoClassLoader(FMLServerTweaker.java:23)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	... 6 more
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: Caused by: java.lang.ClassNotFoundException: codechicken.lib.asm.ASMInit
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	... 21 more
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: Caused by: java.lang.NullPointerException
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
-[15:29:42] [main/INFO] [STDERR/]: [java.lang.Throwable$WrappedPrintStream:println:748]: 	... 23 more
+[15:34:25] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[15:34:25] [main/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[15:34:25] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_191, running on Linux:amd64:4.18.0-13-generic, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[15:34:25] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[15:34:25] [main/DEBUG] [FML/]: Java library path at launch is /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[15:34:25] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[15:34:25] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[15:34:25] [main/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[15:34:25] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[15:34:25] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[15:34:25] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[15:34:25] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[15:34:25] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[15:34:25] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/jelleymuncher/minecraft/minecraft-server/.
+[15:34:25] [main/DEBUG] [FML/]: Discovering coremods
+[15:34:25] [main/DEBUG] [FML/]: Examining for coremod candidacy ProjectE-1.7.10-PE1.10.1.jar
+[15:34:25] [main/DEBUG] [FML/]: Not found coremod data in ProjectE-1.7.10-PE1.10.1.jar
+[15:34:25] [main/DEBUG] [FML/]: Examining for coremod candidacy Waila-1.5.10_1.7.10.jar
+[15:34:25] [main/DEBUG] [FML/]: Not found coremod data in Waila-1.5.10_1.7.10.jar
+[15:34:25] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:34:25] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:34:25] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:34:25] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[15:34:25] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:34:25] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[15:34:25] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[15:34:25] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[15:34:25] [main/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[15:34:25] [main/DEBUG] [FML/]: Injection complete
+[15:34:25] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[15:34:25] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[15:34:26] [main/DEBUG] [FML/]: Read 527 binary patches
+[15:34:26] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[15:34:26] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[15:34:26] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[15:34:26] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[15:34:26] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[15:34:26] [main/DEBUG] [FML/]: Injection complete
+[15:34:26] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[15:34:26] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[15:34:26] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[15:34:26] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[15:34:26] [main/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[15:34:26] [main/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[15:34:26] [main/DEBUG] [FML/]: Validating minecraft
+[15:34:26] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[15:34:26] [main/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[15:34:26] [main/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[15:34:26] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[15:34:28] [Server thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[15:34:28] [Server thread/INFO] [FML/]: MinecraftForge v10.13.4.1558 Initialized
+[15:34:28] [Server thread/INFO] [FML/]: Replaced 183 ore recipies
+[15:34:28] [Server thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[15:34:28] [Server thread/DEBUG] [FML/]: File /home/jelleymuncher/minecraft/minecraft-server/config/injectedDependencies.json not found. No dependencies injected
+[15:34:28] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[15:34:28] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[15:34:28] [Server thread/DEBUG] [FML/]: Minecraft is a file at /home/jelleymuncher/minecraft/minecraft-server/forge-1.7.10-10.13.4.1558-1.7.10-universal.jar, loading
+[15:34:28] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[15:34:28] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[15:34:28] [Server thread/INFO] [FML/]: Searching /home/jelleymuncher/minecraft/minecraft-server/mods for mods
+[15:34:28] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file ProjectE-1.7.10-PE1.10.1.jar
+[15:34:28] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Waila-1.5.10_1.7.10.jar
+[15:34:28] [Server thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1558-1.7.10-universal.jar for potential mods
+[15:34:28] [Server thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1558-1.7.10-universal.jar appears to be missing an mcmod.info file
+[15:34:29] [Server thread/DEBUG] [FML/]: Examining file ProjectE-1.7.10-PE1.10.1.jar for potential mods
+[15:34:29] [Server thread/TRACE] [FML/]: Located mcmod.info file in file ProjectE-1.7.10-PE1.10.1.jar
+[15:34:29] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (moze_intel.projecte.PECore) - loading
+[15:34:29] [Server thread/TRACE] [ProjectE/]: Parsed dependency info : [] [] []
+[15:34:29] [Server thread/DEBUG] [FML/]: Examining file Waila-1.5.10_1.7.10.jar for potential mods
+[15:34:29] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Waila-1.5.10_1.7.10.jar
+[15:34:29] [Server thread/DEBUG] [FML/]: Identified a mod of type Lcpw/mods/fml/common/Mod; (mcp.mobius.waila.Waila) - loading
+[15:34:29] [Server thread/TRACE] [Waila/]: Parsed dependency info : [] [NotEnoughItems@[1.0.4.0,)] []
+[15:34:29] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[15:34:29] [Server thread/DEBUG] [FML/]: Found API moze_intel.projecte.api (owned by ProjectE providing ProjectEAPI) embedded in ProjectE
+[15:34:29] [Server thread/DEBUG] [FML/]: Found API mcp.mobius.waila.api (owned by Waila providing WailaAPI) embedded in Waila
+[15:34:29] [Server thread/DEBUG] [FML/]: Creating API container dummy for API ProjectEAPI: owner: ProjectE, dependents: []
+[15:34:29] [Server thread/DEBUG] [FML/]: Creating API container dummy for API WailaAPI: owner: Waila, dependents: []
+[15:34:29] [Server thread/TRACE] [FML/]: Received a system property request ''
+[15:34:29] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[15:34:29] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[15:34:29] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[15:34:29] [Server thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10-universal.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[15:34:29] [Server thread/DEBUG] [ProjectE/]: Enabling mod ProjectE
+[15:34:29] [Server thread/DEBUG] [FML/]: Found translations in ProjectE-1.7.10-PE1.10.1.jar [zh_CN, ja_JP, de_DE, ru_RU, fr_FR, en_US, pt_BR, it_IT]
+[15:34:29] [Server thread/DEBUG] [Waila/]: Enabling mod Waila
+[15:34:29] [Server thread/DEBUG] [FML/]: Found translations in Waila-1.5.10_1.7.10.jar [de_DE, ru_RU, en_US, it_IT, zh_CN, fr_FR, et_EE, nl_NL]
+[15:34:29] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[15:34:29] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[15:34:29] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[15:34:29] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[15:34:29] [Server thread/DEBUG] [FML/]: Mod sorting data
+[15:34:29] [Server thread/DEBUG] [FML/]: 	ProjectE(ProjectE:1.7.10-PE1.10.1): ProjectE-1.7.10-PE1.10.1.jar ()
+[15:34:29] [Server thread/DEBUG] [FML/]: 	Waila(Waila:1.5.10): Waila-1.5.10_1.7.10.jar (after:NotEnoughItems@[1.0.4.0,))
+[15:34:29] [Server thread/DEBUG] [FML/]: 	ProjectEAPI(API: ProjectEAPI:7): ProjectE-1.7.10-PE1.10.1.jar ()
+[15:34:29] [Server thread/DEBUG] [FML/]: 	WailaAPI(API: WailaAPI:1.2): Waila-1.5.10_1.7.10.jar ()
+[15:34:29] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[15:34:29] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[15:34:29] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[15:34:29] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[15:34:29] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[15:34:29] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[15:34:29] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[15:34:29] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, ProjectE, Waila] at CLIENT
+[15:34:29] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, ProjectE, Waila] at SERVER
+[15:34:29] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[15:34:29] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 0.211s
+[15:34:29] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[15:34:29] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[15:34:29] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[15:34:29] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (10.13.4.1558)
+[15:34:29] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[15:34:29] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0.007s
+[15:34:29] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLConstructionEvent to mod ProjectE
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Mod ProjectE is using network checker : Accepting version 1.7.10-PE1.10.1
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Testing mod ProjectE to verify it accepts its own version in a remote connection
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: The mod ProjectE accepts its own version (1.7.10-PE1.10.1)
+[15:34:29] [Server thread/DEBUG] [FML/ProjectE]: Attempting to inject @SidedProxy classes into ProjectE
+[15:34:29] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLConstructionEvent to mod ProjectE
+[15:34:29] [Server thread/DEBUG] [FML/]: Bar Step: Construction - ProjectE took 0.021s
+[15:34:29] [Server thread/TRACE] [Waila/Waila]: Sending event FMLConstructionEvent to mod Waila
+[15:34:29] [Server thread/TRACE] [FML/Waila]: Mod Waila is using network checker : No network checking performed
+[15:34:29] [Server thread/TRACE] [FML/Waila]: Testing mod Waila to verify it accepts its own version in a remote connection
+[15:34:29] [Server thread/TRACE] [FML/Waila]: The mod Waila accepts its own version (1.5.10)
+[15:34:29] [Server thread/DEBUG] [FML/Waila]: Attempting to inject @SidedProxy classes into Waila
+[15:34:29] [Server thread/TRACE] [Waila/Waila]: Sent event FMLConstructionEvent to mod Waila
+[15:34:29] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Waila took 0.009s
+[15:34:29] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 0.250s
+[15:34:29] [Server thread/DEBUG] [FML/]: Mod signature data
+[15:34:29] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[15:34:29] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	7.10.99.99)	forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[15:34:29] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	10.13.4.1558)	forge-1.7.10-10.13.4.1558-1.7.10-universal.jar
+[15:34:29] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[15:34:29] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.05)	minecraft.jar
+[15:34:29] [Server thread/DEBUG] [FML/]: 		ProjectE	(ProjectE	1.7.10-PE1.10.1)	ProjectE-1.7.10-PE1.10.1.jar
+[15:34:29] [Server thread/DEBUG] [FML/]: 		Waila	(Waila	1.5.10)	Waila-1.5.10_1.7.10.jar
+[15:34:29] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[15:34:29] [Server thread/INFO] [FML/]: Found 341 ObjectHolder annotations
+[15:34:29] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[15:34:29] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[15:34:29] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[15:34:29] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[15:34:29] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
+[15:34:29] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[15:34:29] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[15:34:29] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
+[15:34:29] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[15:34:29] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[15:34:29] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[15:34:29] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0.028s
+[15:34:29] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLPreInitializationEvent to mod ProjectE
+[15:34:29] [Server thread/INFO] [ProjectE/ProjectE]: Loaded configuration file.
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Automatically registered mod ProjectE entity WaterProjectile as ProjectE.WaterProjectile
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Automatically registered mod ProjectE entity LavaProjectile as ProjectE.LavaProjectile
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Automatically registered mod ProjectE entity LootBall as ProjectE.LootBall
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Automatically registered mod ProjectE entity MobRandomizer as ProjectE.MobRandomizer
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Automatically registered mod ProjectE entity LensProjectile as ProjectE.LensProjectile
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Automatically registered mod ProjectE entity NovaCatalystPrimed as ProjectE.NovaCatalystPrimed
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Automatically registered mod ProjectE entity NovaCataclysmPrimed as ProjectE.NovaCataclysmPrimed
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Automatically registered mod ProjectE entity HomingArrow as ProjectE.HomingArrow
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Automatically registered mod ProjectE entity FireProjectile as ProjectE.FireProjectile
+[15:34:29] [Server thread/TRACE] [FML/ProjectE]: Automatically registered mod ProjectE entity LightningProjectile as ProjectE.LightningProjectile
+[15:34:29] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLPreInitializationEvent to mod ProjectE
+[15:34:29] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - ProjectE took 0.263s
+[15:34:29] [Server thread/TRACE] [Waila/Waila]: Sending event FMLPreInitializationEvent to mod Waila
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sent event FMLPreInitializationEvent to mod Waila
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Waila took 0.023s
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0.315s
+[15:34:30] [Server thread/INFO] [FML/]: Applying holder lookups
+[15:34:30] [Server thread/INFO] [FML/]: Holder lookups applied
+[15:34:30] [Server thread/INFO] [FML/]: Injecting itemstacks
+[15:34:30] [Server thread/INFO] [FML/]: Itemstack injection complete
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0.000s
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0.000s
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0.000s
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLInitializationEvent to mod ProjectE
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLInitializationEvent to mod ProjectE
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - ProjectE took 0.005s
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sending event FMLInitializationEvent to mod Waila
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sent event FMLInitializationEvent to mod Waila
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Waila took 0.002s
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0.008s
+[15:34:30] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.006s
+[15:34:30] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
+[15:34:30] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
+[15:34:30] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod ProjectE
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event IMCEvent to mod ProjectE
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event IMCEvent to mod ProjectE
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - ProjectE took 0.001s
+[15:34:30] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Waila
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sending event IMCEvent to mod Waila
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sent event IMCEvent to mod Waila
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Waila took 0.000s
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0.008s
+[15:34:30] [Server thread/INFO] [FML/]: Injecting itemstacks
+[15:34:30] [Server thread/INFO] [FML/]: Itemstack injection complete
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0.093s
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLPostInitializationEvent to mod ProjectE
+[15:34:30] [Server thread/FATAL] [ProjectE/ProjectE]: Error in NBT whitelist file: no item stack found for TConstruct:pickaxe
+[15:34:30] [Server thread/FATAL] [ProjectE/ProjectE]: At line: 5
+[15:34:30] [Server thread/FATAL] [ProjectE/ProjectE]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableingot
+[15:34:30] [Server thread/FATAL] [ProjectE/ProjectE]: At line: 6
+[15:34:30] [Server thread/FATAL] [ProjectE/ProjectE]: Error in NBT whitelist file: no item stack found for ExtraUtilities:unstableIngot
+[15:34:30] [Server thread/FATAL] [ProjectE/ProjectE]: At line: 7
+[15:34:30] [Server thread/FATAL] [ProjectE/ProjectE]: Error in NBT whitelist file: no item stack found for Botania:specialFlower
+[15:34:30] [Server thread/FATAL] [ProjectE/ProjectE]: At line: 8
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLPostInitializationEvent to mod ProjectE
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - ProjectE took 0.008s
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sending event FMLPostInitializationEvent to mod Waila
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sent event FMLPostInitializationEvent to mod Waila
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Waila took 0.002s
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0.103s
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0.022s
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[15:34:30] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   15: RecipeEntry("Before", UNKNOWN, )
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   14: RecipeEntry("", SHAPELESS, moze_intel.projecte.gameObjs.customRecipes.RecipeShapelessHidden) Before: minecraft:shaped
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   13: RecipeEntry("Covalence Repair Recipes", SHAPELESS, moze_intel.projecte.gameObjs.customRecipes.RecipesCovalenceRepair) Before: minecraft:shaped
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   12: RecipeEntry("Philosopher's Smelting Recipes", SHAPELESS, moze_intel.projecte.gameObjs.customRecipes.RecipeShapelessHidden) Before: minecraft:shaped
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("Alchemical Bags Recipes", SHAPELESS, moze_intel.projecte.gameObjs.customRecipes.RecipeAlchemyBag) Before: minecraft:shaped
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[15:34:30] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[15:34:30] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0.007s
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLLoadCompleteEvent to mod ProjectE
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLLoadCompleteEvent to mod ProjectE
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - ProjectE took 0.001s
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sending event FMLLoadCompleteEvent to mod Waila
+[15:34:30] [Server thread/WARN] [Waila/Waila]: [BC] Class not found. java.lang.ClassNotFoundException: buildcraft.factory.TileTank
+[15:34:30] [Server thread/WARN] [Waila/Waila]: [IndustrialCraft 2] Error while loading generator hooks.java.lang.ClassNotFoundException: ic2.core.block.generator.tileentity.TileEntityBaseGenerator
+[15:34:30] [Server thread/WARN] [Waila/Waila]: [Thaumcraft] Class not found. java.lang.ClassNotFoundException: thaumcraft.common.Thaumcraft
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [EnderStorage] EnderStorage mod not found.
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [GraveStone] GraveStone mod not found.
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [TwilightForestMod] TwilightForestMod mod not found.
+[15:34:30] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading Energy hooks.java.lang.ClassNotFoundException: cofh.api.energy.IEnergyProvider
+[15:34:30] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading Energy Cell hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cell.TileCell
+[15:34:30] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading Tank hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.tank.TileTank
+[15:34:30] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.ender.TileTesseract
+[15:34:30] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading ISecureTile hooks.java.lang.ClassNotFoundException: cofh.api.tileentity.ISecurable
+[15:34:30] [Server thread/WARN] [Waila/Waila]: [Thermal Expansion] Error while loading Tesseract hooks.java.lang.ClassNotFoundException: cofh.thermalexpansion.block.cache.TileCache
+[15:34:30] [Server thread/WARN] [Waila/Waila]: [Thermal Dynamics] Error while loading FluidDuct hooks.java.lang.ClassNotFoundException: cofh.thermaldynamics.ducts.fluid.TileFluidDuct
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [Engineer Toolbox] Engineer Toolbox mod not found.
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [ProjectRed] ProjectRed|Integration mod not found.
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [ExtraUtilities] ExtraUtilities mod not found.
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [OpenBlocks] OpenBlocks mod not found.
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [Railcraft] Railcraft mod not found.
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [PamHarvestCraft] PamHarvestCraft mod not found.
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [MagicalCrops] MagicalCrops mod not found.
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [Statues] Statues mod not found.
+[15:34:30] [Server thread/INFO] [Waila/Waila]: [Agriculture] Agriculture mod not found.
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sent event FMLLoadCompleteEvent to mod Waila
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Waila took 0.051s
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0.081s
+[15:34:30] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[15:34:30] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[15:34:30] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[15:34:30] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.000s
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLServerAboutToStartEvent to mod ProjectE
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLServerAboutToStartEvent to mod ProjectE
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - ProjectE took 0.000s
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerAboutToStartEvent to mod Waila
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerAboutToStartEvent to mod Waila
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Waila took 0.001s
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0.002s
+[15:34:30] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[15:34:30] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[15:34:30] [Server thread/INFO] [FML/]: Injecting new block and item data into this server instance.
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:condenser_mk2: 166 (init) -> 720 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:nova_catalyst: 176 (init) -> 721 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:matter_block: 183 (init) -> 722 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:relay_mk1: 188 (init) -> 723 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:condenser_mk1: 180 (init) -> 724 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:dm_pedestal: 169 (init) -> 725 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:nova_cataclysm: 177 (init) -> 726 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:rm_furnace_lit: 167 (init) -> 727 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:fuel_block: 184 (init) -> 728 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:relay_mk2: 189 (init) -> 729 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:relay_mk3: 190 (init) -> 730 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:rm_furnace: 181 (init) -> 731 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:transmutation_table: 179 (init) -> 732 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:dm_furnace_lit: 168 (init) -> 733 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:dm_furnace: 182 (init) -> 734 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:collector_mk1: 185 (init) -> 735 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:alchemical_chest: 178 (init) -> 736 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:collector_mk2: 186 (init) -> 737 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:interdiction_torch: 165 (init) -> 738 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:collector_mk3: 187 (init) -> 739 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:nova_catalyst: 176 (init) -> 721 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_sword: 4113 (init) -> 4891 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:relay_mk1: 188 (init) -> 723 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_hoe: 4114 (init) -> 4892 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_gem_density: 4139 (init) -> 4893 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:relay_mk2: 189 (init) -> 729 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:relay_mk3: 190 (init) -> 730 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:transmutation_table: 179 (init) -> 732 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_void_ring: 4144 (init) -> 4894 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_shears: 4115 (init) -> 4895 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:dm_furnace: 182 (init) -> 734 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_shovel: 4112 (init) -> 4896 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_dm_axe: 4104 (init) -> 4897 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_destruction_catalyst: 4159 (init) -> 4898 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_swrg: 4137 (init) -> 4899 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_fire_projectile: 4157 (init) -> 4900 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_soul_stone: 4147 (init) -> 4901 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_morning_star: 4118 (init) -> 4902 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_armor_3: 4126 (init) -> 4903 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_armor_0: 4123 (init) -> 4904 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_armor_1: 4124 (init) -> 4905 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_armor_2: 4125 (init) -> 4906 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:dm_pedestal: 169 (init) -> 725 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_dm_shovel: 4105 (init) -> 4907 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:nova_cataclysm: 177 (init) -> 726 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:rm_furnace_lit: 167 (init) -> 727 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_pick: 4110 (init) -> 4908 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_volcanite_amulet: 4151 (init) -> 4909 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_klein_star: 4099 (init) -> 4910 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_life_stone: 4149 (init) -> 4911 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_catalitic_lens: 4161 (init) -> 4912 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_dm_hammer: 4109 (init) -> 4913 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_hyperkinetic_lens: 4160 (init) -> 4914 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_archangel_smite: 4133 (init) -> 4915 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_fuel: 4100 (init) -> 4916 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_matter: 4102 (init) -> 4917 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_axe: 4111 (init) -> 4918 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_philosophers_stone: 4096 (init) -> 4919 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_zero_ring: 4136 (init) -> 4920 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_divining_rod_2: 4141 (init) -> 4921 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_divining_rod_3: 4142 (init) -> 4922 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_divining_rod_1: 4140 (init) -> 4923 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:condenser_mk2: 166 (init) -> 720 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:matter_block: 183 (init) -> 722 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_hammer: 4116 (init) -> 4924 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_randomizer: 4155 (init) -> 4925 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_alchemical_bag: 4097 (init) -> 4926 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_ignition: 4135 (init) -> 4927 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_water_orb: 4152 (init) -> 4928 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_manual: 4164 (init) -> 4929 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:condenser_mk1: 180 (init) -> 724 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_dm_hoe: 4107 (init) -> 4930 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_harvest_god: 4134 (init) -> 4931 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_time_watch: 4138 (init) -> 4932 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:fuel_block: 184 (init) -> 728 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_lens_explosive: 4156 (init) -> 4933 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:rm_furnace: 181 (init) -> 731 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_covalence_dust: 4101 (init) -> 4934 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_loot_ball: 4154 (init) -> 4935 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_arcana_ring: 4145 (init) -> 4936 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_evertide_amulet: 4150 (init) -> 4937 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:collector_mk1: 185 (init) -> 735 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_dm_shears: 4108 (init) -> 4938 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_tome: 4162 (init) -> 4939 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:collector_mk2: 186 (init) -> 737 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:interdiction_torch: 165 (init) -> 738 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:collector_mk3: 187 (init) -> 739 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_wind_projectile: 4158 (init) -> 4940 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_dm_sword: 4106 (init) -> 4941 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_mercurial_eye: 4143 (init) -> 4942 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_body_stone: 4146 (init) -> 4943 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_transmutation_tablet: 4163 (init) -> 4944 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_ring_iron_band: 4131 (init) -> 4945 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_lava_orb: 4153 (init) -> 4946 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_repair_talisman: 4098 (init) -> 4947 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_gem_armor_0: 4127 (init) -> 4948 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_gem_armor_2: 4129 (init) -> 4949 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_gem_armor_1: 4128 (init) -> 4950 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_gem_armor_3: 4130 (init) -> 4951 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_mind_stone: 4148 (init) -> 4952 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_dm_armor_1: 4120 (init) -> 4953 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_dm_pick: 4103 (init) -> 4954 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_dm_armor_2: 4121 (init) -> 4955 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_rm_katar: 4117 (init) -> 4956 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_dm_armor_3: 4122 (init) -> 4957 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:dm_furnace_lit: 168 (init) -> 733 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_black_hole: 4132 (init) -> 4958 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:alchemical_chest: 178 (init) -> 736 (map).
+[15:34:30] [Server thread/INFO] [FML/]: Injected new block/item ProjectE:item.pe_dm_armor_0: 4119 (init) -> 4959 (map).
+[15:34:30] [Server thread/DEBUG] [FML/]: Registry consistency check successful
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[15:34:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[15:34:30] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[15:34:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.001s
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLModIdMappingEvent to mod ProjectE
+[15:34:30] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLModIdMappingEvent to mod ProjectE
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - ProjectE took 0.000s
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sending event FMLModIdMappingEvent to mod Waila
+[15:34:30] [Server thread/TRACE] [Waila/Waila]: Sent event FMLModIdMappingEvent to mod Waila
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Waila took 0.000s
+[15:34:30] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.003s
+[15:34:30] [Server thread/INFO] [FML/]: Applying holder lookups
+[15:34:30] [Server thread/INFO] [FML/]: Holder lookups applied
+[15:34:30] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[15:34:30] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[15:34:30] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[15:34:30] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@668103d9)
+[15:34:30] [Server thread/INFO] [FML/]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@668103d9)
+[15:34:30] [Server thread/INFO] [FML/]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@668103d9)
+[15:34:31] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[15:34:31] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[15:34:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[15:34:31] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[15:34:31] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[15:34:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[15:34:31] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[15:34:31] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[15:34:31] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0.003s
+[15:34:31] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLServerStartingEvent to mod ProjectE
+[15:34:31] [Server thread/INFO] [ProjectE/ProjectE]: Starting server-side EMC mapping.
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'obisidan.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'glass.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'glass.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'ender'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'iron.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'gold.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'copper.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'tin.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'silver.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'lead.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'nickel.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'aluminum.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'ardite.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'cobalt.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'platinum.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'obsidian.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'electrum.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'invar.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'signalum.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'lumium.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'enderium.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'mithril.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'bronze.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'aluminumbrass.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'manyullyn.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'alumite.molten'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'emerald.liquid'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'redstone'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'glowstone'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'cryotheum'
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Can not get Fluid 'pryotheum'
+[15:34:31] [Server thread/INFO] [ProjectE/ProjectE]: Starting to collect Mappings...
+[15:34:31] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from moze_intel.projecte.emc.mappers.OreDictionaryMapper
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Overwriting fixValueBeforeInherit for minecraft:redstone(331:0):0/1 to 64/1
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Overwriting fixValueBeforeInherit for minecraft:glowstone_dust(348:0):0/1 to 384/1
+[15:34:31] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from moze_intel.projecte.emc.mappers.LazyMapper
+[15:34:31] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from moze_intel.projecte.emc.mappers.APICustomEMCMapper
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Overwriting fixValueBeforeInherit for minecraft:cobblestone(4:0):1/1 to 1/1
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Overwriting fixValueBeforeInherit for minecraft:stick(280:0):4/1 to 4/1
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Overwriting fixValueBeforeInherit for minecraft:redstone(331:0):64/1 to 64/1
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Overwriting fixValueBeforeInherit for minecraft:stone(1:0):1/1 to 1/1
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Overwriting fixValueBeforeInherit for minecraft:glowstone_dust(348:0):384/1 to 384/1
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Overwriting fixValueBeforeInherit for minecraft:diamond(264:0):8192/1 to 8192/1
+[15:34:31] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from ODdefaults.json
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Overwriting fixValueBeforeInherit for minecraft:iron_ingot(265:0):256/1 to 256/1
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=1} -> 2xnull
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=1} -> 1xnull
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=2} -> 1xnull
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=2} -> 1xnull
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=4} -> 1xnull
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=1} -> 2xnull
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=4} -> 1xnull
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=4} -> 1xnull
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotIron=16} -> 1xnull
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {minecraft:obsidian(49:0)=1} -> 2xnull
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotGold=1} -> 2xnull
+[15:34:31] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: ingotIron=2} -> 3xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: dustRedstone=10} -> 4xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: dustGlowstone=4} -> 4xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, minecraft:ender_pearl(368:0)=4, minecraft:blaze_powder(377:0)=1, minecraft:coal(263:1)=1, OD: dustRedstone=1} -> 4xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, minecraft:coal(263:1)=1, OD: ingotIron=1} -> 1xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: ingotGold=1, OD: dustRedstone=1, OD: dustGlowstone=1} -> 1xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, minecraft:ender_pearl(368:0)=1} -> 1xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1, OD: dustRedstone=1} -> 1xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {OD: dustRedstone=1, OD: ingotIron=1} -> 1xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {minecraft:ender_pearl(368:0)=1, OD: ingotIron=1} -> 1xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {minecraft:coal(263:1)=1, OD: ingotIron=1, minecraft:obsidian(49:0)=1} -> 1xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {minecraft:soul_sand(88:0)=1, OD: ingotGold=1} -> 1xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1} -> 4xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1} -> 4xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=16} -> 64xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=1} -> 1xnull
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring setValueFromConversion because of invalid ingredient or output: {null=32, OD: ingotIron=32} -> 48xnull
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from metals.json
+[15:34:32] [Server thread/DEBUG] [ProjectE/ProjectE]: Adding conversions from group 'a name describing the group of conversions' with comment 'An optional comment for the group of conversions'
+[15:34:32] [Server thread/DEBUG] [ProjectE/ProjectE]: Adding conversions from group 'another group' with comment 'null'
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from example.json
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from moze_intel.projecte.emc.mappers.customConversions.CustomConversionMapper
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from moze_intel.projecte.emc.mappers.CustomEMCMapper
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Ignoring Recipe because outnumber <= 0: {minecraft:paper(339:0)=8, minecraft:filled_map(358:*)=1} -> 0xitem.emptyMap@0
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: Can not map Crafting Recipes with Type: moze_intel.projecte.gameObjs.customRecipes.RecipeAlchemyBag
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: CraftingMapper Statistics:
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Found 1 Recipes of Type class net.minecraft.item.crafting.RecipesMapExtending
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Found 27 Recipes of Type class moze_intel.projecte.gameObjs.customRecipes.RecipeShapelessHidden
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Found 197 Recipes of Type class net.minecraft.item.crafting.ShapedRecipes
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Found 153 Recipes of Type class net.minecraftforge.oredict.ShapedOreRecipe
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Found 31 Recipes of Type class net.minecraftforge.oredict.ShapelessOreRecipe
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Found 62 Recipes of Type class net.minecraft.item.crafting.ShapelessRecipes
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from moze_intel.projecte.emc.mappers.CraftingMapper
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from moze_intel.projecte.emc.mappers.FluidMapper
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from moze_intel.projecte.emc.mappers.SmeltingMapper
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Collected Mappings from moze_intel.projecte.emc.mappers.APICustomConversionMapper
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Mapping Collection finished
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Starting to generate Values:
+[15:34:32] [Server thread/WARN] [ProjectE/ProjectE]: EMC Exploit: "0/1 + 9*minecraft:gold_nugget(371:0) => 1*minecraft:gold_ingot(266:0)" ingredient cost: 2043/1 value of result: 2048/1 setValueFromConversion: 0/1 + 8*OD: ingotIron => 1*minecraft:gold_ingot(266:0)
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Generated Values...
+[15:34:32] [Server thread/INFO] [ProjectE/ProjectE]: Registered 508 EMC values. (took 466 ms)
+[15:34:32] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLServerStartingEvent to mod ProjectE
+[15:34:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - ProjectE took 0.479s
+[15:34:32] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerStartingEvent to mod Waila
+[15:34:32] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerStartingEvent to mod Waila
+[15:34:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Waila took 0.003s
+[15:34:32] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0.485s
+[15:34:32] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[15:34:32] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[15:34:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[15:34:32] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[15:34:32] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[15:34:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
+[15:34:32] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[15:34:32] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[15:34:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
+[15:34:32] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLServerStartedEvent to mod ProjectE
+[15:34:32] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLServerStartedEvent to mod ProjectE
+[15:34:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - ProjectE took 0.000s
+[15:34:32] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerStartedEvent to mod Waila
+[15:34:32] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerStartedEvent to mod Waila
+[15:34:32] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Waila took 0.000s
+[15:34:32] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0.001s
+[15:34:32] [ProjectE Update Checker Server/INFO] [ProjectE/ProjectE]: Mod is updated.
+[15:34:40] [Server thread/DEBUG] [ProjectE/]: Clearing offline data cache in preparation to load online data
+[15:34:41] [Netty IO #2/TRACE] [FML/]: $ClientHello->FMLHandshakeServerState$2:HELLO
+[15:34:41] [Netty IO #2/INFO] [FML/]: Client protocol version 2
+[15:34:41] [Netty IO #2/TRACE] [FML/]: $ModList:6 mods->FMLHandshakeServerState$2:HELLO
+[15:34:41] [Netty IO #2/INFO] [FML/]: Client attempting to join with 6 mods : WailaHarvestability@1.1.6,Waila@1.5.10,FML@7.10.99.99,Forge@10.13.4.1614,mcp@9.05,ProjectE@1.7.10-PE1.10.1
+[15:34:41] [Netty IO #2/INFO] [FML/]: Attempting connection with missing mods [] at CLIENT
+[15:34:41] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[15:34:41] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[15:34:41] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[15:34:41] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[15:34:41] [Server thread/DEBUG] [ProjectE/]: ** SENT TRANSMUTATION DATA **
+[15:34:41] [Server thread/DEBUG] [ProjectE/]: ** SENT FULL BAG DATA **
+[15:34:41] [Netty IO #2/TRACE] [FML/]: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[15:34:41] [Server thread/INFO] [ProjectE/]: Sent EMC data packets to: endervw
+[15:34:41] [Server thread/DEBUG] [ProjectE/]: Total packets: 2
+[15:34:41] [Server thread/INFO] [Waila/]: Player EntityPlayerMP['endervw'/402, l='world', x=138.50, y=67.00, z=254.50] connected. Sending ping
+[15:35:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[15:36:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[15:36:47] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[15:37:32] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[15:38:17] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[15:39:02] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[15:39:09] [Server thread/INFO] [ProjectE/]: Removing endervw from scheduled timers: Player disconnected.
+[15:39:13] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[15:39:13] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[15:39:13] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[15:39:13] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[15:39:13] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[15:39:13] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[15:39:13] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLServerStoppingEvent to mod ProjectE
+[15:39:13] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLServerStoppingEvent to mod ProjectE
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - ProjectE took 0.000s
+[15:39:13] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerStoppingEvent to mod Waila
+[15:39:13] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerStoppingEvent to mod Waila
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Waila took 0.000s
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0.002s
+[15:39:13] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[15:39:13] [Server thread/INFO] [FML/]: Unloading dimension 0
+[15:39:13] [Server thread/INFO] [FML/]: Unloading dimension -1
+[15:39:13] [Server thread/INFO] [FML/]: Unloading dimension 1
+[15:39:13] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[15:39:13] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[15:39:13] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
+[15:39:13] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[15:39:13] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[15:39:13] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[15:39:13] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0.001s
+[15:39:13] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLModIdMappingEvent to mod ProjectE
+[15:39:13] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLModIdMappingEvent to mod ProjectE
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - ProjectE took 0.000s
+[15:39:13] [Server thread/TRACE] [Waila/Waila]: Sending event FMLModIdMappingEvent to mod Waila
+[15:39:13] [Server thread/TRACE] [Waila/Waila]: Sent event FMLModIdMappingEvent to mod Waila
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Waila took 0.000s
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0.001s
+[15:39:13] [Server thread/INFO] [FML/]: Applying holder lookups
+[15:39:13] [Server thread/INFO] [FML/]: Holder lookups applied
+[15:39:13] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[15:39:13] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[15:39:13] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[15:39:13] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[15:39:13] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[15:39:13] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[15:39:13] [Server thread/TRACE] [ProjectE/ProjectE]: Sending event FMLServerStoppedEvent to mod ProjectE
+[15:39:13] [Server thread/DEBUG] [ProjectE/ProjectE]: Cleared tile entity maps.
+[15:39:13] [Server thread/DEBUG] [ProjectE/ProjectE]: Cleared cached tome knowledge
+[15:39:13] [Server thread/DEBUG] [ProjectE/ProjectE]: Cleared player check-lists: server stopping.
+[15:39:13] [Server thread/INFO] [ProjectE/ProjectE]: Completed server-stop actions.
+[15:39:13] [Server thread/TRACE] [ProjectE/ProjectE]: Sent event FMLServerStoppedEvent to mod ProjectE
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - ProjectE took 0.001s
+[15:39:13] [Server thread/TRACE] [Waila/Waila]: Sending event FMLServerStoppedEvent to mod Waila
+[15:39:13] [Server thread/TRACE] [Waila/Waila]: Sent event FMLServerStoppedEvent to mod Waila
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Waila took 0.000s
+[15:39:13] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0.002s

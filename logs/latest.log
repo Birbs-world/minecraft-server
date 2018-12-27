@@ -1,27 +1,20 @@
-[16:06:44] [Server thread/INFO]: Starting minecraft server version 1.7.10
-[16:06:46] [Server thread/INFO]: Loading properties
-[16:06:46] [Server thread/INFO]: Default game type: SURVIVAL
-[16:06:46] [Server thread/INFO]: Generating keypair
-[16:06:46] [Server thread/INFO]: Starting Minecraft server on *:25565
-[16:06:47] [Server thread/INFO]: Preparing level "world"
-[16:06:47] [Server thread/INFO]: Preparing start region for level 0
-[16:06:48] [Server thread/WARN]: Skipping BlockEntity with id BlockSkyChest
-[16:06:48] [Server thread/INFO]: Done (1.024s)! For help, type "help" or "?"
-[16:06:54] [User Authenticator #1/INFO]: UUID of player endervw is ded3f1a6-caa5-49f7-8499-9e7f7da65608
-[16:06:54] [Server thread/INFO]: endervw[/192.168.1.16:37160] logged in with entity id 780 at (131.24774603901847, 58.0, 252.80774697834826)
-[16:06:54] [Server thread/INFO]: endervw joined the game
-[16:07:14] [User Authenticator #2/INFO]: UUID of player jelleycrafter is 11304da4-ebd4-431d-a771-db67fb987cfd
-[16:07:14] [Server thread/INFO]: jelleycrafter[/192.168.1.7:64291] logged in with entity id 781 at (144.5, 67.0, 257.5)
-[16:07:14] [Server thread/INFO]: jelleycrafter joined the game
-[16:07:22] [Server thread/INFO]: Opped jelleycrafter
-[16:07:38] [Server thread/INFO]: [jelleycrafter: Set own game mode to Creative Mode]
-[16:08:00] [Server thread/INFO]: [jelleycrafter: Set endervw's game mode to Survival Mode]
-[16:08:10] [Server thread/INFO]: [endervw: Set own game mode to Creative Mode]
-[16:08:11] [Server thread/INFO]: [jelleycrafter: Set endervw's game mode to Creative Mode]
-[16:08:22] [Server thread/INFO]: Stopping the server
-[16:08:22] [Server thread/INFO]: Stopping server
-[16:08:22] [Server thread/INFO]: Saving players
-[16:08:22] [Server thread/INFO]: Saving worlds
-[16:08:22] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[16:08:22] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[16:08:22] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[16:25:16] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[16:25:25] [Server thread/INFO]: Loading properties
+[16:25:25] [Server thread/INFO]: Default game type: SURVIVAL
+[16:25:25] [Server thread/INFO]: Generating keypair
+[16:25:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:25:27] [Server thread/INFO]: Preparing level "world"
+[16:25:27] [Server thread/INFO]: Preparing start region for level 0
+[16:25:28] [Server thread/INFO]: Done (0.779s)! For help, type "help" or "?"
+[16:26:00] [User Authenticator #1/INFO]: UUID of player jelleycrafter is 11304da4-ebd4-431d-a771-db67fb987cfd
+[16:26:00] [Server thread/INFO]: jelleycrafter[/192.168.1.7:64538] logged in with entity id 784 at (160.06896754160698, 78.84091307696843, 258.29636293234626)
+[16:26:00] [Server thread/INFO]: jelleycrafter joined the game
+[16:26:21] [Server thread/INFO]: jelleycrafter lost connection: TranslatableComponent{key='disconnect.genericReason', args=[Internal Exception: java.io.IOException: Connection reset by peer], siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null}}
+[16:26:21] [Server thread/INFO]: jelleycrafter left the game
+[16:26:24] [Server thread/INFO]: Stopping the server
+[16:26:24] [Server thread/INFO]: Stopping server
+[16:26:24] [Server thread/INFO]: Saving players
+[16:26:24] [Server thread/INFO]: Saving worlds
+[16:26:24] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[16:26:24] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[16:26:24] [Server thread/INFO]: Saving chunks for level 'world'/The End
