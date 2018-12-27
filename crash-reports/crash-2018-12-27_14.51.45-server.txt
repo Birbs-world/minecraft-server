@@ -1,0 +1,47 @@
+---- Minecraft Crash Report ----
+// Don't be sad. I'll do better next time, I promise!
+
+Time: 27/12/18 2:51 PM
+Description: Exception in server tick loop
+
+Missing Mods:
+	ForgeMultipart : any
+	MrTJPCoreMod : any
+
+cpw.mods.fml.common.MissingModsException
+	at cpw.mods.fml.common.Loader.sortModList(Loader.java:243)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:493)
+	at cpw.mods.fml.server.FMLServerHandler.beginServerLoading(FMLServerHandler.java:87)
+	at cpw.mods.fml.common.FMLCommonHandler.onServerStart(FMLCommonHandler.java:314)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:117)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:387)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:685)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Linux (amd64) version 4.18.0-13-generic
+	Java Version: 1.8.0_191, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 117319576 bytes (111 MB) / 318767104 bytes (304 MB) up to 1838153728 bytes (1753 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 9 mods loaded, 9 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	U	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	U	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1558-1.7.10-universal.jar) 
+	U	Forge{10.13.4.1558} [Minecraft Forge] (forge-1.7.10-10.13.4.1558-1.7.10-universal.jar) 
+	U	ProjRed|Core{4.7.0pre9.92} [ProjectRed Core] (ProjectRed-1.7.10-4.7.0pre9.92-Base.jar) 
+	U	ProjRed|Compatibility{4.7.0pre9.92} [ProjectRed Compatibility] (ProjectRed-1.7.10-4.7.0pre9.92-Compat.jar) 
+	U	ProjRed|Integration{4.7.0pre9.92} [ProjectRed Integration] (ProjectRed-1.7.10-4.7.0pre9.92-Integration.jar) 
+	U	ProjRed|Transmission{4.7.0pre9.92} [ProjectRed Transmission] (ProjectRed-1.7.10-4.7.0pre9.92-Integration.jar) 
+	U	ProjRed|Illumination{4.7.0pre9.92} [ProjectRed Illumination] (ProjectRed-1.7.10-4.7.0pre9.92-Lighting.jar) 
+	U	ProjRed|Exploration{4.7.0pre9.92} [ProjectRed Exploration] (ProjectRed-1.7.10-4.7.0pre9.92-World.jar) 
+	Profiler Position: N/A (disabled)
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)
